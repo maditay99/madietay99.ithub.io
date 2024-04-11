@@ -1,0 +1,21 @@
+
+// C++ Name Initials 
+#include <iostream>
+#include <string>
+
+int main() {
+    char YourFirstInitial, YourLastInitial;
+
+    std::cout << "What is the initial of your first name?" << std::endl;
+    std::cin >> YourFirstInitial;
+    // establishing first name initials
+
+    std::cout << "What is the initial of your last name?" << std::endl;
+    std::cin >> YourLastInitial;
+    // establishing last name initials
+
+    std::cout << "Your initials are " << YourFirstInitial << YourLastInitial << std::endl;
+    // presenting initials of full name 
+    
+    return 0;
+}
