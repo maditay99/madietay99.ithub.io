@@ -1,0 +1,21 @@
+import java.util.Scanner;
+
+public class AboveOrUnder5 {
+    
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        
+        System.out.println("Please type a number");
+        int num1 = scanner.nextInt();
+        
+            if (num1 < 5) { 
+            System.out.println("Your number is: " + num1);
+        
+                
+            } else {
+            System.out.println("Your new number is: " + (num1 * 2));
+        }
+        
+        scanner.close();
+    }
+}
