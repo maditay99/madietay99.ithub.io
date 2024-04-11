@@ -1,0 +1,23 @@
+
+
+import java.util.Scanner;
+
+public class NameInitials {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.println("What is the initial to your first name?");
+        char YourFirstInitial = scanner.next().charAt(0); 
+        // Establish first initial and save
+
+        System.out.println("What is the initial to your last name?");
+        char YourLastInitial = scanner.next().charAt(0); 
+        // Establish last initial and save
+
+  
+        System.out.println("first and last initials " + YourFirstInitial + YourLastInitial);
+
+        scanner.close();
+    }
+}
