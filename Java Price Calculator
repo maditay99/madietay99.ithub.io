@@ -1,0 +1,22 @@
+
+import java.util.Scanner;
+
+public class Total_price_of_apples 
+{
+	public static void main(String[] args)
+	{
+	    Scanner s = new Scanner(System.in);
+	    
+		System.out.println("How many apples did you buy?");
+	    int quantity_of_apples = s.nextInt();
+        
+        System.out.println("what was the cost of one apple?");
+        int price_per_apple = s.nextInt();
+        
+        int total_price = quantity_of_apples * price_per_apple;
+        
+        System.out.println("The total you spent on apples is:" + total_price );
+        
+        System.exit(0);
+	}
+}
