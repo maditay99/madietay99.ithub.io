@@ -1,2 +1,2 @@
 # madietay99.ithub.io
-ComputerSciencePrinciples
+Computer Science Principles Cource 
