@@ -1,0 +1,22 @@
+
+
+import java.util.Scanner;
+
+public class ONE2N 
+{
+	public static void main(String[] args)
+	{
+	    Scanner scanner = new Scanner(System.in);
+	    
+		System.out.println("Please Enter A Positive Number");
+	    int integer = scanner.nextInt();
+	    
+        for (int i = 2; i <= integer; i += 2) {
+            System.out.println(i);
+        }
+       
+        
+        System.exit(0);
+        }
+    }
+}
